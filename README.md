@@ -11,15 +11,26 @@ Sou fundador da **Costa Sul Elementos** e estudante de **Tecnologia em Inteligê
 - **Sistemas de captação e qualificação de leads** com site, agente de IA, funil automatizado, CRM e dashboards.
 - **Automações e integrações** em Node.js, Python, APIs REST, webhooks e n8n.
 - **Estruturas de dados e backend** com Supabase, PostgreSQL e SQL.
-- **Agentes de IA aplicados a processos reais de negócio**, com foco em atendimento, qualificação e operação comercial.
+- **Agentes de IA aplicados a processos reais de negócio**, com foco em atendimento, classificação, qualificação e operação comercial.
 
 ## 🧩 Projeto em destaque
 
 ### [Sistema Integrado de Captação e Qualificação de Leads](https://github.com/leosantosavelar/sistema-captacao-leads)
 
-Arquitetura de uma operação que conecta anúncios, site, atendimento por agente de IA, qualificação automática, CRM e dashboards em um fluxo único e rastreável.
+Case técnico público de uma operação que conecta anúncios, site, entrada via webhook, agente de IA, classificação estruturada, qualificação, CRM e dashboards em um fluxo rastreável.
 
-**Stack:** Node.js · Python · Supabase · PostgreSQL · SQL · n8n · APIs REST · Webhooks · Agentes de IA
+**O que o repositório demonstra:**
+
+- validação, normalização e idempotência de webhooks;
+- classificação por IA com saída JSON validada e controle de confiança;
+- score, prioridade e roteamento determinístico de leads;
+- modelagem PostgreSQL e exemplos de Row Level Security no Supabase;
+- exemplos em Node.js e Python com testes automatizados;
+- workflow n8n sanitizado;
+- CI com GitHub Actions para Node.js e Python;
+- documentação de arquitetura, segurança e observabilidade.
+
+**Stack:** Node.js · Python · Supabase · PostgreSQL · SQL · n8n · APIs REST · Webhooks · Agentes de IA · GitHub Actions
 
 ## 🛠️ Stack
 
@@ -30,10 +41,10 @@ Python · JavaScript / Node.js · SQL
 Supabase · PostgreSQL · APIs REST · JSON · Webhooks
 
 **Automação e IA**  
-Agentes de IA · n8n · Integrações entre sistemas · Automação de processos
+Agentes de IA · Classificação estruturada · n8n · Integrações entre sistemas · Automação de processos
 
 **Engenharia e operação**  
-Git · GitHub · Rastreamento de eventos · Mensuração de dados · Arquitetura de fluxos
+Git · GitHub · Testes automatizados · GitHub Actions · Rastreamento de eventos · Mensuração de dados · Arquitetura de fluxos
 
 ## 📚 Em evolução
 
